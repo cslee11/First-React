@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          abcdefg
+          First React Project - Chia
         </a>
       </header>
     </div>
