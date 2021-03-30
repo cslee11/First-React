@@ -5,8 +5,11 @@ import Button from '../../components/Button/Button';
 import Logo from '../../components/Logo/Logo';
 import nikebanner from '../../pics/nikelogo1.png';
 import Navbar from '../../components/Navbar/Navbar1';
-import Saccordion from '../../components/saccordion/saccordion';
+import Saccordion from '../../components/Accordion/SimpleAccordion';
 import Card from '../../components/Card/Card';
+import Grid from '../../components/Grid/Grid';
+import AutoLayOut from '../../components/Grid/AutoLayOut'; 
+
 
 function Home() {
   return (
@@ -18,17 +21,24 @@ function Home() {
       <p>Intro to React</p>
       </header>
       <div className='nav'><Navbar/></div>
+      <AutoLayOut/>
       <br/>
-      <div><Button/> </div>
-      <div><Button/> </div>
-      <div><Button/> </div>
-      <div><Button/> </div>
-      <div><Button/> </div>
-      <Saccordion/>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
+      <Button buttonName='Back' color='black'/> 
+      <Button buttonName='Play'color='lightblue'/> 
+      <Button buttonName='Pause'color='orange'/>
+      <Button buttonName='Next'color='blue'/> 
+      <Button buttonName='Like'color='lightred'/> 
+      <br/>
+      <Grid/>
+      <br/>
+      <Saccordion title='Survivor-Accordion' body='Wow this is pretty Awesome!!!!'/>
+      <Saccordion title='Books' body='Harry Potter'/>
+      <Saccordion title='Music' body='Hip-hop'/>
+      <Saccordion title='TV-Shows' body='That 70s Show'/>
+      <br/>
+      <Card titleName='My First Card' date='March 30, 2021' image='https://c8.alamy.com/comp/W2A297/obese-fat-boy-pick-his-nose-and-bored-isolated-on-white-background-health-care-and-emotion-concept-W2A297.jpg' imageTitle='Boy Deep in Thought' cardHeader="Wouldn't this take..." cardBody="Too Long? It may be better to manipulate the typography in the js file?"/>
+      <Card titleName='My Second Card' date='March 30, 2021' image='https://venturebeat.com/wp-content/uploads/2013/10/mega-charizard-x_official-art_300dpi.jpg?fit=685%2C600&strip=all' imageTitle='Boy Deep in Thought' cardHeader="Charizard" cardBody="Evolutionized Charizard?"/>
+      <Card titleName='My First Card' date='March 30, 2021' image='https://www.si.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTY4MDA3NjE5NzcxNDQyNDQ5/manny-pacquiao-freddie-roachjpg.jpg' imageTitle='Boy Deep in Thought' cardHeader="Manny Pacqiuao" cardBody="The Great Manny Pacqiuao and Trainer Freddie Roach hitting pads."/>
 
     
      

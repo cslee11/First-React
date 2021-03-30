@@ -1,10 +1,10 @@
 import React from 'react';
 import './Button.css';
 
- function Button() {
+ function Button(props) {
     return (
-        <div className='button'>
-            <button>Click Me</button>
+        <div>
+            <button className='button' style={{backgroundColor: `${props.color}`}}>{props.buttonName}</button>
         </div>
     )
 }
