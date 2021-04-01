@@ -4,7 +4,7 @@ import "./Home.css";
 import Button from '../../components/Button/Button';
 import Logo from '../../components/Logo/Logo';
 import nikebanner from '../../pics/nikelogo1.png';
-import Navbar from '../../components/Navbar/Navbar1';
+import Navbar from '../../components/Navbar/Navbar';
 import Saccordion from '../../components/Accordion/SimpleAccordion';
 import Card from '../../components/Card/Card';
 import Grid from '../../components/Grid/Grid';
