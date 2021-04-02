@@ -12,7 +12,7 @@ class AboutYou extends React.Component{
     render(){
         return(
             <div>
-                <h2 className="AboutYou">ABout you </h2>
+                <h2 className="AboutYou">About you </h2>
             </div>
         )
     }
